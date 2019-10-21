@@ -32,7 +32,7 @@ div {
   left: 0;
   right: 0;
   width: 100%;
-  height: 65.2rem;
+  height: 54rem;
   background: url(images/head-cover.jpg) 50% 100%;
   background-repeat: no-repeat;
   z-index: 1;
@@ -156,24 +156,73 @@ form {
 
 input {
   position: absolute;
-  top: -12px;
-  left: -5px;
-  width: 120px;
-  height: 23px;
-  border-radius: 12px;
+  top: -1.2rem;
+  left: -0.5rem;
+  width: 12rem;
+  height: 2.3rem;
+  border-radius: 1.2rem;
   background-image: none;
   border: 1px solid #8b8a8a;
   box-shadow: inset 0 1px 0 black;
   background: none;
   outline: none;
-  padding-left: 20px;
+  padding-left: 2.5rem;
+}
+
+input:focus {
+  background-color: white;
+}
+
+input:hover .fa-search {
+  font-size: 1.2rem;
+  color: #5e5e5e;
+  position: absolute;
+  top: -0.6rem;
+  left: 0.6rem;
+  z-index: 2;
+}
+
+.header-text {
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.one,
+.two,
+.three {
+  color: white;
+  margin: 0 auto;
+  padding: 0.5rem;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 100;
 }
 
 .fa-search {
-  font-size: 12px;
+  font-size: 1.2rem;
   color: white;
   position: absolute;
-  top: -6px;
-  left: 6px;
+  top: -0.6rem;
+  left: 0.6rem;
   z-index: 2;
+}
+
+.one {
+  width: 98rem;
+  font-size: 6.4rem;
+}
+
+.two {
+  width: 98rem;
+  font-size: 3.2rem;
+  font-weight: 100;
+}
+
+.three {
+  margin-top: 1rem;
+  width: 98rem;
+  font-size: 2.6rem;
+}
+
+.fa-play-circle {
+  margin-left: 1rem;
 }
