@@ -273,23 +273,23 @@ input:focus {
   cursor: pointer;
 }
 
-.foo .left .left-bottom {
+.foo .left-bottom {
   margin-left: -4rem;
   list-style-type: none;
   display: inline;
 }
 
-.foo .left .left-bottom li {
+.foo .left-bottom li {
   display: inline-block;
   padding: 0 5px;
 }
 
-.foo .left .left-bottom li a {
+.foo .left-bottom li a {
   text-decoration: none;
   color: #08c;
 }
 
-.foo .left .left-bottom .barli {
+.foo .left-bottom .barli {
   border-left: 1px solid #ccc;
 }
 
