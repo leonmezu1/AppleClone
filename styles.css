@@ -14,7 +14,6 @@ html {
 }
 
 main {
-  margin: 0 auto;
   padding: 0;
 }
 
@@ -40,7 +39,6 @@ div {
 
 .navigation {
   font-family: 'Lato', sans-serif;
-  position: relative;
   width: 98rem;
   height: 3.6rem;
   margin: 0 auto;
@@ -185,6 +183,7 @@ input:hover .fa-search {
 .header-text {
   text-align: center;
   margin-top: 10rem;
+  cursor: pointer;
 }
 
 .one,
@@ -225,4 +224,32 @@ input:hover .fa-search {
 
 .fa-play-circle {
   margin-left: 1rem;
+}
+
+.boxes {
+  display: flex;
+  height: auto;
+}
+
+.smallbox {
+  display: block;
+  width: 25%;
+  height: 20rem;
+  margin: 1px;
+}
+
+.first {
+  background-image: url("images/promo_iphone5s.jpg");
+}
+
+.second {
+  background-image: url("images/promo_iphone5c.jpg");
+}
+
+.third {
+  background-image: url("images/promo_30_years.jpg");
+}
+
+.fourth {
+  background-image: url("images/promo_supplier_responsibility.jpg");
 }
