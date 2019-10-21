@@ -253,3 +253,45 @@ input:hover .fa-search {
 .fourth {
   background-image: url("images/promo_supplier_responsibility.jpg");
 }
+
+.foo {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  width: 110rem;
+  margin: 2rem auto;
+  color: #868888;
+  font-size: 11px;
+}
+
+.left {
+  display: block;
+  line-height: 1.8;
+}
+
+.foo strong {
+  text-decoration: none;
+  color: #08c;
+  cursor: pointer;
+}
+
+.left-bottom {
+  margin-left: -4rem;
+  list-style-type: none;
+  display: inline;
+}
+
+.left-bottom li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.left-bottom li a {
+  text-decoration: none;
+  color: #08c;
+}
+
+.barli {
+  border-left: 1px solid #ccc;
+}
