@@ -8,7 +8,7 @@ Skills to use:
   * Positioning elements using flex properties.
   * Positioning elements using absolute and relative properties for block box properties.
 
-Project preview: 
+Project preview: https://raw.githack.com/leonmezu1/AppleClone/master/index.html
 ____________________________________
 
 This project was made by Leonardo Mezu, some of my repositories are available for you to check:
