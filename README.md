@@ -8,10 +8,10 @@ Skills to use:
   * Positioning elements using flex properties.
   * Positioning elements using absolute and relative properties for block box properties.
 
-Project preview: **Remember to update the link** ...
+Project preview: 
 ____________________________________
 
-This project was made by Leonardo Mezu and Kitzia Vidal, some of my repositories are available for you to check:
+This project was made by Leonardo Mezu, some of my repositories are available for you to check:
 
 **_Leonardo Mezu:_**
 
